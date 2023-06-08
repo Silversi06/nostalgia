@@ -1,14 +1,37 @@
-
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
 body {
     margin: 0;
+    
    
 }
-.title{
+hr{
+    
+    margin: 0px auto;
+}
+.border1 {
+    padding-bottom: 25px;
+}
+.nostalgia{
+    padding-bottom: 30px;
     line-height:40%;
     font-size: 30px;
     font-weight: bold;
 }
+.border2{
+    padding-bottom: 200px;
+}
+.line1{
+    padding-bottom: 60px;
+    align-items:center;
+    
+}
 .intro1{
+    padding-bottom: 10px;
     font-size: 30px;
     text-align: center;
 }
@@ -19,7 +42,7 @@ body {
 .intro3{
     font-size :20px;
     text-align: center;
-    line-height: 0;
+    padding-bottom: 40px;
 }
 button{
     background-color: yellow;
@@ -31,6 +54,16 @@ button{
     text-align: center;
     margin: auto;   /* 버튼 중간으로*/ 
     display: block; /*위치하는 코드*/
+}
+.line2{
+    padding-top: 60px;
+    align-items:center;
+}
+.border3{
+    padding-top: 180px;
+}
+.border4{
+    padding-top: 30px;
 }
 @media (max-width:768px){
     body{
